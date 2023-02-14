@@ -150,7 +150,7 @@ def stats(update, context):
 def start(update, context):
     buttons = ButtonMaker()
     if config_dict['EMOJI_THEME']:
-        buttons.buildbutton(f"😎 {config_dict['START_BTN1_NAME']}", f"{config_dict['START_BTN1_URL']}")
+        buttons.buildbutton(f"🔱 {config_dict['START_BTN1_NAME']}", f"{config_dict['START_BTN1_URL']}")
         buttons.buildbutton(f"🔥 {config_dict['START_BTN2_NAME']}", f"{config_dict['START_BTN2_URL']}")
     else:
         buttons.buildbutton(f"{config_dict['START_BTN1_NAME']}", f"{config_dict['START_BTN1_URL']}")
